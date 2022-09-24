@@ -8,13 +8,10 @@ const Ejercicio = ({numero,setNumero}) => {
     }
 
     let decrement = (num)=>{
-        if (numero-num < 0) {
-            alert('Numero menor a 0')
-        }else{
-            setNumero(numero-num)
-        }
-    }
+       
+        numero-num <0 ?  alert('Numero menor a 0') : setNumero(numero-num)
 
+    }
   return (
     <div>
 
