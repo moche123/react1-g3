@@ -95,7 +95,7 @@ function App() {
         modo &&
         <div>
           <Render />
-          <p>Hello</p>
+          <p>Hello Amigo</p>
 
         </div>
 
