@@ -4,6 +4,7 @@ import Header from './partials/Header';
 import Hijo from './Hijo';
 import Container from './Composition/Container';
 import Render from './Renderizado/Render';
+import Ejercicio from './Ejercicio/ejercicio';
 
 function App() {
   let nameVariable = 'Daniel'
@@ -12,6 +13,7 @@ function App() {
   const [counter, setCounter] = useState(0)
   const [modo, setModo] = useState(true) //modo es claro en true
 
+  const[numero,setNumero] = useState(5)
 
   //! USE EFFECT 
 
@@ -101,6 +103,11 @@ function App() {
 
 
       }
+
+      <hr/>
+      <hr/>
+
+      <Ejercicio numero={numero} setNumero={setNumero} />
 
 
 
